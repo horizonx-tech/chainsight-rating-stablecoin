@@ -1,4 +1,4 @@
 version: v1
 label: rating_stablecoin
 components:
-- component_path: components/sample_event_indexer.yaml
+- component_path: components/usdc_transfer_indexer.yaml
