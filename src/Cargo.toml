@@ -1,5 +1,5 @@
 [workspace]
-members = ["canisters/usdc_transfer_indexer", "logics/usdc_transfer_indexer", "canisters/usdc_daily_tx_filter", "logics/usdc_daily_tx_filter", "canisters/usdc_daily_tx_volume_snapshot", "logics/usdc_daily_tx_volume_snapshot", "bindings/*", "accessors/*"]
+members = ["canisters/usdc_transfer_indexer", "logics/usdc_transfer_indexer", "canisters/usdc_daily_tx_filter", "logics/usdc_daily_tx_filter", "bindings/*", "accessors/*"]
 
 [workspace.package]
 version = "0.1.0"

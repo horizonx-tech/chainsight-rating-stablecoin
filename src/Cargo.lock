@@ -2332,60 +2332,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "usdc_daily_tx_volume_snapshot"
-version = "0.1.0"
-dependencies = [
- "candid 0.9.11",
- "chainsight-cdk",
- "chainsight-cdk-macros",
- "hex",
- "ic-cdk 0.11.3",
- "ic-cdk-macros 0.8.1",
- "ic-cdk-timers",
- "ic-solidity-bindgen",
- "ic-stable-structures",
- "ic-web3-rs",
- "serde",
- "serde_bytes",
- "serde_json",
- "usdc_daily_tx_volume_snapshot_bindings",
-]
-
-[[package]]
-name = "usdc_daily_tx_volume_snapshot_bindings"
-version = "0.1.0"
-dependencies = [
- "candid 0.9.11",
- "chainsight-cdk",
- "chainsight-cdk-macros",
- "ic-cdk 0.11.3",
- "ic-stable-structures",
- "serde",
- "serde_bytes",
-]
-
-[[package]]
-name = "usdc_daily_tx_volume_snapshot_canister"
-version = "0.1.0"
-dependencies = [
- "candid 0.9.11",
- "chainsight-cdk",
- "chainsight-cdk-macros",
- "ciborium",
- "hex",
- "ic-cdk 0.11.3",
- "ic-cdk-macros 0.8.1",
- "ic-cdk-timers",
- "ic-solidity-bindgen",
- "ic-stable-structures",
- "ic-web3-rs",
- "serde",
- "serde_bytes",
- "usdc_daily_tx_volume_snapshot",
- "usdc_daily_tx_volume_snapshot_bindings",
-]
-
-[[package]]
 name = "usdc_transfer_indexer"
 version = "0.1.0"
 dependencies = [

@@ -3,5 +3,5 @@ label: rating_stablecoin
 components:
 - component_path: components/usdc_transfer_indexer.yaml
 - component_path: components/usdc_daily_tx_filter.yaml
-- component_path: components/usdc_daily_tx_volume_snapshot.yaml
+# - component_path: components/usdc_daily_tx_volume_snapshot.yaml
 # - component_path: components/usdc_daily_hhi.yaml
