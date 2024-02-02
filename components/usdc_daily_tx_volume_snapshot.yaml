@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/horizonx-tech/chainsight-cli/main/resources/schema/snapshot_indexer_icp.json
+version: v1
+metadata:
+  label: USDC Daily Tx Volume Snapshot
+  type: snapshot_indexer_icp
+  description: ''
+  tags:
+  - ERC-20
+  - Ethereum
+  - USDC
+datasource:
+  location:
+    id: usdc_daily_tx_filter
+  method:
+    identifier: 'get_result : (vec text) -> (LensValue)'
+    interface: null
+    args: []
+is_target_component: null
+lens_targets: null
+interval: 360
+cycles: null

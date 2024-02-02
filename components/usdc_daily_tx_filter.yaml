@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/horizonx-tech/chainsight-cli/main/resources/schema/algorithm_lens.json
+version: v1
+metadata:
+  label: USDC Daily Tx Filter
+  type: algorithm_lens
+  description: 'This is a lens to filter daily Tx.'
+  tags:
+  - USDC
+  - ERC-20
+  - Transfer
+datasource:
+  methods:
+  - id: usdc_transfer_indexer
+    identifier: 'events_from_to : (nat64, nat64) -> (vec record { nat64; vec Transfer })'
+    candid_file_path: null
+cycles: null
