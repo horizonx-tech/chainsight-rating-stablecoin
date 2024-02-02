@@ -11,6 +11,28 @@
           "visibility": "public"
         }
       ]
+    },
+    "usdc_daily_tx_filter": {
+      "type": "custom",
+      "candid": "./usdc_daily_tx_filter.did",
+      "wasm": "./usdc_daily_tx_filter.wasm",
+      "metadata": [
+        {
+          "name": "candid:service",
+          "visibility": "public"
+        }
+      ]
+    },
+    "usdc_daily_tx_volume_snapshot": {
+      "type": "custom",
+      "candid": "./usdc_daily_tx_volume_snapshot.did",
+      "wasm": "./usdc_daily_tx_volume_snapshot.wasm",
+      "metadata": [
+        {
+          "name": "candid:service",
+          "visibility": "public"
+        }
+      ]
     }
   },
   "defaults": {

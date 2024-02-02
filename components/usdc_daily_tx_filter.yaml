@@ -13,4 +13,5 @@ datasource:
   - id: usdc_transfer_indexer
     identifier: 'events_from_to : (nat64, nat64) -> (vec record { nat64; vec Transfer })'
     candid_file_path: null
+with_args: true
 cycles: null
