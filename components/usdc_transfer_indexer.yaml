@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/horizonx-tech/chainsight-cli/main/resources/schema/event_indexer.json
+version: v1
+metadata:
+  label: USDC Transfer Indexer
+  type: event_indexer
+  description: ''
+  tags:
+  - Ethereum
+  - ERC-20
+  - Transfer
+datasource:
+  id: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+  event:
+    identifier: Transfer
+    interface: ERC20.json
+  network:
+    rpc_url: https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}
+    chain_id: 1
+  from: 19119038
+  contract_type: ERC-20
+  batch_size: 100
+interval: 360 # TODO: fix to 86400 after testing
+cycles: null
